@@ -1,1 +1,5 @@
+resource "local_file" {
+  content = "test"
+  filename = "${path.module}/pliktestowy.txt"
 
+}
